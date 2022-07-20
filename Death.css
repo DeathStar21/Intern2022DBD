@@ -1,0 +1,332 @@
+* {
+    /*ให้ทุกclassมีผลตามนี้*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.center2 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.BG {
+   background: #ede8f4;
+}
+
+.ML {
+    margin-left: 0.5rem;
+}
+.ML2{
+    margin-left: 1rem;
+}
+.MB{
+    margin-bottom: 1rem;
+}
+.MBD{
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+.MT {
+    margin-top: 0.7rem;
+}
+.MT2 {
+    display: flex;
+    margin-top: 2vh;
+    margin-bottom: 0rem;
+}
+
+
+.MT2 {
+    margin-top: 1.5rem;
+}
+.MR {
+    margin-right: 0.5rem;
+}
+.radius{
+    border-radius: 2rem;
+}
+/*Head-NAV*/
+.Hnav-bg {
+    display: flex;
+    background-color: #6F3CAA;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.Hnav-btn>button>h6 {
+    font-size: 0.8rem;
+}
+
+.Hnav-btn>button {
+    margin: 0%;
+    justify-items: center;
+    align-items: center;
+    font-family: Prompt;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #6F3CAA;
+    padding: 0rem 0rem;
+    border: none;
+    cursor: pointer;
+    /*ทำให้เอาเมาส์ไปชี้แล้วเปลี่ยนหน้าตา*/
+}
+
+.Bnav-btn>a>h6 {
+    font-size: 1.2rem;
+}
+
+.Bnav-btn>a {
+    margin: 0 0rem;
+    font-family: Prompt;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /*เอาเส้นออก*/
+    cursor: pointer;
+    /*ทำให้เอาเมาส์ไปชี้แล้วเปลี่ยนหน้าตา*/
+}
+.Link1{
+    margin: 0 0rem;
+    font-family: Prompt;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /*เอาเส้นออก*/
+    cursor: pointer;
+}
+.Bnav-btn_P>a>h6 {
+    font-size: 1.2rem;
+}
+
+.Bnav-btn_P>a {
+    margin: 0 0rem;
+    font-family: Prompt;
+    color: #9448ED;
+    text-decoration: none;
+    /*เอาเส้นออก*/
+    cursor: pointer;
+    /*ทำให้เอาเมาส์ไปชี้แล้วเปลี่ยนหน้าตา*/
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.Mnav-bg {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(180deg, #7D15F4 7.71%, #A367E8 94.86%);
+    border: 1px solid #9448ED;
+    backdrop-filter: blur(4px)
+}
+
+.main-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-img img {
+    width: 10rem;
+}
+.img3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img3 img {
+    width: 17rem;
+}
+.img4 img {
+    height: 15rem;
+    width: 25rem;
+}
+.img5 img {
+    height: 20rem;
+    width: 30rem;
+}
+.img6 img {
+    height: 25rem;
+    width: 40rem;
+}
+.img7 img {
+    height: 15rem;
+    width: 25rem;
+}
+
+.text {
+    font-family: Prompt;
+    color: #fff;
+    justify-content: center;
+}
+
+.text3 {
+    font-size: 1.5rem;
+    font-family: Prompt;
+    color: #fff;
+    justify-content: center;
+}
+
+.text2 {
+    font-family: Prompt;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.bar-scale {
+    height: 4rem;
+
+}
+
+.card-scale {
+    height: 56rem;
+    background-color: #af82e4;
+}
+
+.card-scale2 {
+    width: 68rem;
+    height: 60rem;
+    background-color: #af82e4;
+}
+
+.card-scale3 {
+    width: 40rem;
+    height: 4rem;
+    background-color: #af82e4;
+}
+.card-scale4 {
+    width: 19rem;
+    height: 14rem;
+    background-color: #af82e4;
+}
+.card-scale5 {
+    width: 45rem;
+    height: 40rem;
+    background-color: #af82e4;
+}
+.card-scale6 {
+    width: 32rem;
+    height: 15rem;
+    background-color: #efe3fc;
+}
+.card-scale7 {
+    width: 66rem;
+    height: 3rem;
+    background: #af82e4;
+}
+.card-scale8 {
+    width: 66rem;
+    height: 25rem;
+    background-color: #efe3fc;
+}
+.card-scale9 {
+    width: 19rem;
+    height: 3rem;
+    background-color: #af82e4;
+}
+.card-scale10 {
+    width: 19rem;
+    height: 9rem;
+    background: #fff;
+}
+.card-scale11 {
+    width: 19rem;
+    height: 2rem;
+    background: #aeaceb;
+}
+.card-scale12 {
+    width: 30rem;
+    height: 4rem;
+    background-color: #af82e4;
+}
+
+.menu-scale {
+    width: 11rem;
+    height: 60rem;
+    background: #af82e4;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    /*ปุ่มเลือก*/
+    font-size: 1.5rem;
+}
+
+.menu_text_g {
+    font-family: Prompt;
+    color: gray;
+}
+
+.menu_text_y {
+    font-family: Prompt;
+    color: rgb(255, 213, 0);
+}
+
+.menu_text_p {
+    font-family: Prompt;
+    color: #6F3CAA;
+}
+.icon_w {
+    /*เมนู*/
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+.icon_g {
+    /*เมนู*/
+    font-size: 3rem;
+    color: gray;
+}
+
+.icon_y {
+    /*เมนู*/
+    font-size: 3rem;
+    color: rgb(255, 213, 0);
+}
+
+.icon_p {
+    /*เมนู*/
+    font-size: 3rem;
+    color: #6F3CAA;
+}
+
+.icon_g2 {
+    /*เมนู*/
+    /*ตัวเล็ก*/
+    font-size: 2rem;
+    color: gray;
+}
+
+.icon_y2 {
+    /*เมนู*/
+    /*ตัวเล็ก*/
+    font-size: 2rem;
+    color: rgb(255, 213, 0);
+}
+
+.icon_p2 {
+    /*เมนู*/
+    /*ตัวเล็ก*/
+    font-size: 2rem;
+    color: #6F3CAA;
+}
+
+.icon3 {
+    /*สถานะ*/
+    color: #00D5A2;
+}

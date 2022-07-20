@@ -1,0 +1,63 @@
+*{/*ให้ทุกclassมีผลตามนี้*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-position{
+    align-items: center;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    height: 80vh;
+
+}
+
+
+@media (min-width: 300px) {
+    .img{
+        width: 20vh;
+        height: 20vh;
+        object-fit: cover;
+    }
+/*Small devices (landscape phones, 576px and up)*/
+}
+@media (min-width: 576px) {
+    .img{
+        width: 30vh;
+        height: 50vh;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .img{
+        width: 30vh;
+        height: 40vh;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .img{
+        width: 30vh;
+        height: 80vh;
+    }
+}

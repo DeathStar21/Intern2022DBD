@@ -1,0 +1,310 @@
+*{/*ให้ทุกclassมีผลตามนี้*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+/*Header Nav*/
+.header{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+.nav-logo{
+    cursor: pointer;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper__menu{
+    margin: 0 2rem;
+}
+.nav-wrapper__menu >a{
+    margin: 0 1rem;
+    color: #2a2a2a; /*เปลี่ยนสีตัวอักษรบนheader*/
+    text-decoration: none; /*เอาเส้นออก*/
+}
+.nav-wrapper__menu >a:hover{
+    color: #4b8ef1;
+}
+.nav-wrapper__menu >a.active{
+    color: #4b8ef1;
+}
+.nav-wrapper__btn > a{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(105deg, rgba(91,104,235,1) 0%,rgba(40,225,253,1)100%);
+    border: none;
+    cursor: pointer;/*ทำให้เอาเมาส์ไปชี้แล้วเปลี่ยนหน้าตา*/
+
+}
+/*main section*/
+.main{
+    background: url(images/slider-left-dec.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-wrapper{/*ใช้ทำให้มันเรียงเป็นแนวนอน*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-title > h1{
+    font-size: 2.5rem;
+    color: #2a2a2a;
+    margin: rem 0;/*ขยับบรรทัดให้กว้างขึ้น*/
+}
+.main-title > p{
+    color: #2a2a2a;
+    margin: 0.5rem 0;
+}
+.main-title__dowload{
+    display: flex;
+}
+.main-title__dowload >a{
+    margin-right: 1.5rem; 
+    color: #fff;
+    background-color: #4b8ef1;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+    text-decoration: none;
+}
+.main-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main-img img{
+   width: 30rem;
+}
+
+/*Second part*/
+.second{
+    background: url(images/services-right-dec.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-darth{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.second-title{
+    color: #2a2a2a;
+    justify-items: center;
+    align-items: center;
+}
+.second-title >h1{
+    font-size: 2rem;
+    color: #2a2a2a;
+    margin: 1rem 0;
+}
+.second-title >h1>span{
+    color: #4b8ef1;
+    
+}
+.second-title >p{
+    color: #989da5;
+    margin: 0.5rem 0;
+}
+.second-title >p>span{
+    color: #4b8ef1;
+}
+.second-img{
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+/*Third part*/
+.third{
+    background: url(images/services-left-dec.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-warpper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-space{
+    width: 5%;
+    margin: auto;
+}
+.third-space2{
+    height: 10%;
+    margin: auto;
+}
+
+.third-title{
+    color: #2a2a2a;
+    justify-items: center;
+    align-items: center;
+}
+.third-title >h1{
+    color: #2a2a2a;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+.third-title >h1>span{
+    color: #4b8ef1;
+    
+}
+.third-title >p{
+    color: #989da5;
+    margin: 1rem 0;
+}
+.third-margin{
+    margin: 2rem 0;
+}
+.card01 {
+    width: 15rem;
+    height: 18rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+.card02 {
+    width: 16rem;
+    height: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 50px; /* 5px rounded corners */
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.card {
+    width: 15rem;
+    height: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+.card01:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.box {
+    padding: 2px 5px;  
+}
+.box2 {
+    padding: 10px 30px;  
+    
+}
+.box2 {
+    padding: 10px 30px;  
+}
+.box2 >h3 {
+    color: #2a2a2a;
+    justify-items: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+.box2 >h3:hover {
+    color: #4b8ef1;
+    justify-items: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+.box >h4 {
+    color: #2a2a2a;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.box >p {
+    color: #989da5;
+    margin: 1rem 0;
+}
+.third-btn{
+    display: flex;
+}
+.third-btn>a{
+    color: #4b8ef1;
+    border-radius: 1.3rem;
+    text-decoration: none;
+} 
+
+.third-img{
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.third-bg{
+    background: url(images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third2-img{
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+   
+}
+/* Fourt*/
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four-warpper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.four-title{
+    color: #2a2a2a;
+    justify-items: center;
+    align-items: center;
+}
+.four-img{
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
